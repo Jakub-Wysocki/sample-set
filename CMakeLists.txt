@@ -7,3 +7,5 @@ include_directories(inc)
 file(GLOB SOURCES "src/*.c")
 
 add_executable(main ${SOURCES})
+
+target_link_libraries(main m)
